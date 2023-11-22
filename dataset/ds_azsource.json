@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "*.csv",
+				"fileName": "selected-services-june-2023-quarter-csv.csv",
 				"container": "adftosql"
 			},
 			"columnDelimiter": ",",
@@ -18,6 +18,63 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "series_reference",
+				"type": "String"
+			},
+			{
+				"name": "period",
+				"type": "String"
+			},
+			{
+				"name": "data_value",
+				"type": "String"
+			},
+			{
+				"name": "suppressed",
+				"type": "String"
+			},
+			{
+				"name": "status",
+				"type": "String"
+			},
+			{
+				"name": "units",
+				"type": "String"
+			},
+			{
+				"name": "magnitude",
+				"type": "String"
+			},
+			{
+				"name": "subject",
+				"type": "String"
+			},
+			{
+				"name": "group",
+				"type": "String"
+			},
+			{
+				"name": "series_title_1",
+				"type": "String"
+			},
+			{
+				"name": "series_title_2",
+				"type": "String"
+			},
+			{
+				"name": "series_title_3",
+				"type": "String"
+			},
+			{
+				"name": "series_title_4",
+				"type": "String"
+			},
+			{
+				"name": "series_title_5",
+				"type": "String"
+			}
+		]
 	}
 }
