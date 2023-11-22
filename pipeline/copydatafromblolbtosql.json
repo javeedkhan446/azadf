@@ -36,6 +36,11 @@
 						"type": "TabularTranslator",
 						"mappings": [
 							{
+								"source": {
+									"name": "Series_reference",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Series_reference",
 									"type": "String",
@@ -43,6 +48,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Period",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Period",
 									"type": "Double",
@@ -50,6 +60,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Data_value",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Data_value",
 									"type": "Double",
@@ -57,6 +72,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Suppressed",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Suppressed",
 									"type": "Int32",
@@ -65,7 +85,7 @@
 							},
 							{
 								"source": {
-									"name": "Status",
+									"name": "STATUS",
 									"type": "String",
 									"physicalType": "String"
 								},
@@ -76,6 +96,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "UNITS",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "UNITS",
 									"type": "String",
@@ -83,6 +108,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Magnitude",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Magnitude",
 									"type": "Int32",
@@ -90,6 +120,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Subject",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Subject",
 									"type": "String",
@@ -97,6 +132,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Group",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Group",
 									"type": "String",
@@ -104,6 +144,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Series_title_1",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Series_title_1",
 									"type": "String",
@@ -111,6 +156,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Series_title_2",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Series_title_2",
 									"type": "String",
@@ -118,6 +168,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Series_title_3",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Series_title_3",
 									"type": "String",
@@ -125,6 +180,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Series_title_4",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Series_title_4",
 									"type": "String",
@@ -132,6 +192,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Series_title_5",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Series_title_5",
 									"type": "String",
