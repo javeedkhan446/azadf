@@ -1,0 +1,27 @@
+{
+	"name": "ds_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Copydata_ds",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "adf"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Industry",
+				"type": "String"
+			}
+		]
+	}
+}
