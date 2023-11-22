@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Copydata_ds'"
 		},
+		"AzureSqlDb_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDb'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +44,9 @@
 					},
 					"Copydata_ds_connectionString": {
 						"value": "[parameters('Copydata_ds_connectionString')]"
+					},
+					"AzureSqlDb_connectionString": {
+						"value": "[parameters('AzureSqlDb_connectionString')]"
 					}
 				}
 			},

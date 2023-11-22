@@ -8,6 +8,9 @@
 		"Copydata_ds_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDb_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
