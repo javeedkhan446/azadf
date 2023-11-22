@@ -145,6 +145,13 @@
 						"referenceName": "ds_source",
 						"type": "DatasetReference"
 					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "Copydata_ds",
+							"type": "LinkedServiceReference"
+						},
+						"path": "adftosql"
+					},
 					"enableLogging": true,
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
