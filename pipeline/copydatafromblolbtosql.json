@@ -19,7 +19,8 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "adftosql/selected-services-june-2023-quarter-csv.csv",
+							"recursive": true,
+							"wildcardFileName": "selected-services-june-2023-quarter-csv.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
