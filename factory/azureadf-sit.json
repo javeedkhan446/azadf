@@ -1,0 +1,9 @@
+{
+	"name": "azureadf-sit",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "21ed467a-e3e5-4b4c-a8e5-5dba7f881b7b",
+		"tenantId": "189de737-c93a-4f5a-8b68-6f4ca9941912"
+	}
+}
