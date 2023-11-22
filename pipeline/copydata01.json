@@ -27,11 +27,36 @@
 							"type": "DelimitedTextReadSettings"
 						}
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
 				},
 				"inputs": [
 					{
 						"referenceName": "ds_source",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "ds_destination",
 						"type": "DatasetReference"
 					}
 				]
@@ -56,7 +81,24 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"enableLogging": true
+					"dataset": {
+						"referenceName": "ds_source",
+						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "Copydata_ds",
+							"type": "LinkedServiceReference"
+						},
+						"path": "adf"
+					},
+					"enableLogging": true,
+					"storeSettings": {
+						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
+						"wildcardFileName": "*.csv",
+						"enablePartitionDiscovery": false
+					}
 				}
 			}
 		],
