@@ -5,9 +5,15 @@
 			"referenceName": "Copydata_ds",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"dsheetname": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "@dataset().dsheetname",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "sampleexcel.xls",
