@@ -20,7 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFileName": "Sample01.csv",
+							"wildcardFileName": "organizations-1000.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
