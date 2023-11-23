@@ -12,7 +12,8 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "sampleexcel.xls",
 				"container": "xmlinput"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}
