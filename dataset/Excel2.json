@@ -5,9 +5,18 @@
 			"referenceName": "Copydata_ds",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Sheet": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().Sheet",
+				"type": "Expression"
+			},
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "Samplexls01.xls",
