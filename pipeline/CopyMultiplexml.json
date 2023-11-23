@@ -31,7 +31,7 @@
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
 										"recursive": true,
-										"wildcardFileName": "*",
+										"wildcardFileName": "sampleexcel.xls",
 										"enablePartitionDiscovery": false
 									}
 								},
