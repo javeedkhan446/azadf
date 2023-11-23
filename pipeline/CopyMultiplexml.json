@@ -86,7 +86,7 @@
 				"type": "array",
 				"defaultValue": [
 					{
-						"sheetnme": "customer"
+						"sheetname": "customer"
 					},
 					{
 						"sheetname": "product"
