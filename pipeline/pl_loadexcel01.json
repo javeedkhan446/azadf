@@ -1,6 +1,19 @@
 {
 	"name": "pl_loadexcel01",
 	"properties": {
+		"parameters": {
+			"Sheet": {
+				"type": "array",
+				"defaultValue": [
+					{
+						"Sheet": "abc"
+					},
+					{
+						"Sheet": "def"
+					}
+				]
+			}
+		},
 		"folder": {
 			"name": "Dev/CopyData"
 		},
