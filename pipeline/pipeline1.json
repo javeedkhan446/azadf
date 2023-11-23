@@ -1,0 +1,25 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"parameters": {
+			"sheetname": {
+				"type": "array",
+				"defaultValue": [
+					{
+						"sheetnme": "customer"
+					},
+					{
+						"sheetname": "product"
+					},
+					{
+						"sheetname": "order"
+					}
+				]
+			}
+		},
+		"folder": {
+			"name": "Dev/CopyData"
+		},
+		"annotations": []
+	}
+}
