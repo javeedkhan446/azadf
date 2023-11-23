@@ -40,7 +40,13 @@
 							"inputs": [
 								{
 									"referenceName": "Excel1",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"dsheetname": {
+											"value": "@item().sheetname",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
