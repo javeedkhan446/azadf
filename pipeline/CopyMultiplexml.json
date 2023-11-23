@@ -1,6 +1,20 @@
 {
-	"name": "pipeline1",
+	"name": "CopyMultiplexml",
 	"properties": {
+		"activities": [
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@pipepline.parameters.sheetname",
+						"type": "Expression"
+					}
+				}
+			}
+		],
 		"parameters": {
 			"sheetname": {
 				"type": "array",
