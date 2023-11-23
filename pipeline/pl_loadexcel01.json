@@ -1,0 +1,9 @@
+{
+	"name": "pl_loadexcel01",
+	"properties": {
+		"folder": {
+			"name": "Dev/CopyData"
+		},
+		"annotations": []
+	}
+}
