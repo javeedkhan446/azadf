@@ -54,13 +54,25 @@
 							"inputs": [
 								{
 									"referenceName": "Excel2",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"Sheet": {
+											"value": "@item().Sheet",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
 								{
 									"referenceName": "AzureSqlTable2",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"dstablename": {
+											"value": "@item().Sheet",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
