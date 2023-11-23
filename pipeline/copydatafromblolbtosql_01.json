@@ -35,6 +35,128 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "1",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_1",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Eldon Base for stackable storage shelf, platinum",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_2",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Muhammed MacIntyre",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_3",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "3",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_4",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "-213.25",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_5",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "38.94",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_6",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "35",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_7",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Nunavut",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_8",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Storage & Organization",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_9",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "0.8",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "column_10",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": false,
