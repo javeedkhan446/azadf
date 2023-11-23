@@ -20,7 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFileName": "Sampe01csv",
+							"wildcardFileName": "Sampe01.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
