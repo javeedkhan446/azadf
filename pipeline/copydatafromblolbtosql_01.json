@@ -38,122 +38,110 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "1",
+									"name": "Index",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_1",
+									"name": "Index",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "Eldon Base for stackable storage shelf, platinum",
+									"name": "Organization Id",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_2",
+									"name": "Organization Id",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "Muhammed MacIntyre",
+									"name": "Name",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_3",
+									"name": "Name",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "3",
+									"name": "Website",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_4",
+									"name": "Website",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "-213.25",
+									"name": "Country",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_5",
+									"name": "Country",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "38.94",
+									"name": "Description",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_6",
+									"name": "Description",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "35",
+									"name": "Founded",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_7",
+									"name": "Founded",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "Nunavut",
+									"name": "Industry",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_8",
+									"name": "Industry",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": "Storage & Organization",
+									"name": "Number of employees",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "column_9",
+									"name": "Number of employees",
 									"type": "String",
-									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "0.8",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "column_10",
-									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "nvarchar"
 								}
 							}
 						],
