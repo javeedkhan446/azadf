@@ -1,0 +1,20 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Copydata_ds",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Samplexls01.xls",
+				"container": "xmlinput"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}

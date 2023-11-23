@@ -26,8 +26,23 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
+								"source": {
+									"type": "ExcelSource",
+									"storeSettings": {
+										"type": "AzureBlobStorageReadSettings",
+										"recursive": true,
+										"wildcardFileName": "Samplexls01.xls",
+										"enablePartitionDiscovery": false
+									}
+								},
 								"enableStaging": false
-							}
+							},
+							"inputs": [
+								{
+									"referenceName": "Excel2",
+									"type": "DatasetReference"
+								}
+							]
 						}
 					]
 				}
