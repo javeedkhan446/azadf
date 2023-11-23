@@ -1,0 +1,16 @@
+{
+	"name": "ds_blobtosql01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Dummy"
+		}
+	}
+}

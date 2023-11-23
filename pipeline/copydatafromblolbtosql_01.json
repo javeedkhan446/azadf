@@ -20,7 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFileName": "selected-services-june-2023-quarter-csv.csv",
+							"wildcardFileName": "Sample01.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -220,7 +220,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_blobtosql",
+						"referenceName": "ds_blobtosql01",
 						"type": "DatasetReference"
 					}
 				]
